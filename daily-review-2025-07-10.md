@@ -31,6 +31,7 @@ This document provides a comprehensive review of all development activities and 
 
 ### Concept Map: Today's Development Focus
 
+```mermaid
 %%{init: {
   'theme':'base',
   'darkMode': true,
@@ -65,6 +66,7 @@ graph TB
     F --> J[Hotkey Management]
     H --> K[Window Handling]
     H --> L[Search Shortcuts]
+```
 
 #### Node Glossary
 
@@ -85,6 +87,7 @@ graph TB
 
 ### Windows Config Commit Timeline
 
+```mermaid
 %%{init: {
   'theme':'base',
   'darkMode': true,
@@ -125,6 +128,7 @@ sequenceDiagram
     Dev->>AHK: Improve window handling (7fb42cd)
     Dev->>Batch: Use AHK v2 directly (f2e6c37)
     Dev->>AHK: Add auto-restart (3db3beb)
+```
 
 #### Node Glossary
 
@@ -137,6 +141,7 @@ sequenceDiagram
 
 ### Feature Development Flow
 
+```mermaid
 %%{init: {
   'theme':'base',
   'darkMode': true,
@@ -176,6 +181,7 @@ flowchart TD
     H --> M
     K --> M
     L --> M
+```
 
 #### Node Glossary
 
@@ -197,6 +203,7 @@ flowchart TD
 
 ### Project Dependencies Architecture
 
+```mermaid
 %%{init: {
   'theme':'base',
   'darkMode': true,
@@ -231,6 +238,7 @@ graph LR
     H --> K[Scripts]
     I --> L[Integration]
     J --> M[Batch Files]
+```
 
 #### Node Glossary
 
